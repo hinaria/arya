@@ -1,6 +1,4 @@
 use {
-    std::string::FromUtf8Error,
-
     hina,
 
     arya::JsonError,

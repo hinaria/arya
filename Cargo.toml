@@ -12,4 +12,4 @@ license       = "MIT/Apache-2.0"
 keywords      = ["io", "read", "write", "slice"]
 readme        = "docs/crates.io/readme.md"
 
-include       = ["src/lib.rs", "Cargo.toml", "docs/crates.io/readme.md"]
+include       = ["src/**/*.rs", "Cargo.toml", "docs/crates.io/readme.md"]
