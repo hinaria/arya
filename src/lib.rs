@@ -28,7 +28,7 @@
 //!
 //! builder.update("value");
 //!
-//! builder.completed_string()
+//! builder.completed_string();
 //!
 //! // => Ok({
 //! // =>     "name": "annie",
