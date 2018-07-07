@@ -1,6 +1,6 @@
 [package]
 name          = "arya"
-version       = "0.0.1"
+version       = "0.0.2"
 authors       = ["annie <a@hinaria.com>"]
 description   = "simple json validation. simple json repair. lightning fast."
 
@@ -9,7 +9,8 @@ homepage      = "https://code.hinaria.com/p/arya"
 repository    = "https://github.com/hinaria/arya"
 
 license       = "MIT/Apache-2.0"
-keywords      = ["io", "read", "write", "slice"]
+keywords      = ["json", "serialization", "validation", "validate", "repair"]
+categories    = ["encoding"]
 readme        = "docs/crates.io/readme.md"
 
 include       = ["src/**/*.rs", "Cargo.toml", "docs/crates.io/readme.md"]
