@@ -137,7 +137,7 @@ impl JsonVerifier {
     pub fn update(&mut self, character: u8) -> Result<(), JsonError> {
         // utf8 continuation.
         if character >= 128 {
-            return self.state(self.state)
+            return self.state(self.state);
         }
 
 
