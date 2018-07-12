@@ -184,7 +184,7 @@ impl JsonSource for &[u8] {
 
 impl JsonSource for Vec<u8> {
     fn stream(&self) -> &[u8] {
-        &self[..]
+        &self
     }
 }
 
