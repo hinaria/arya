@@ -1,5 +1,7 @@
 # arya.
 
+[crates.io](https://crates.io/crates/arya) · [docs.rs](https://docs.rs/arya/0.0.2/arya/) · `arya = "0.0.2"`
+
 simple json validation. simple json repair. lightning fast.
 
 ## example: json validation + repair.
